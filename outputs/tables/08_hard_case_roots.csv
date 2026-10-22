@@ -1,0 +1,3 @@
+﻿case,feature,threshold,hard_side
+오경보 근접,cur_madr,0.66118,>
+미탐 근접,cur_madr,0.77716,<=

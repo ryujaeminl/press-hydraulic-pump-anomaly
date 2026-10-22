@@ -1,0 +1,5 @@
+﻿rule,segment_recall,normal_seg_false_alarm,false_alarms_per_hour,latency_median_s(first red)
+R1 red 1회,1,0.0052632,5.4184,1
+R2 red 2연속,1,0.0035088,3.6123,1
+R3 yellow 이상 2연속,1,0.022807,23.48,1
+R4 세그먼트 평균 p>=t_red,1,0.0035088,3.6123,1

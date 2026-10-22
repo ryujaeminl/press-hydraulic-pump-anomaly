@@ -1,0 +1,5 @@
+﻿variant,normal_windows,normal_yellow,normal_red,normal_new_mode,anomaly_new_mode,anomaly_windows,anomaly_red,anomaly_yellow,anomaly_green,R1_recall,R1_FA_per_h,R2_recall,R2_FA_per_h,R3_recall,R3_FA_per_h
+모델만,3567,52,3,1,35,104,102,2,0,1,5.4184,1,3.6123,1,21.674
+전역 최대값 가드→노랑,3567,54,3,1,35,104,102,2,0,1,5.4184,1,3.6123,1,23.48
+모드별 가드→노랑 (채택),3567,55,3,1,35,104,102,2,0,1,5.4184,1,3.6123,1,23.48
+전역 가드→빨강 (폐기),3567,52,5,1,35,104,104,0,0,1,7.2246,1,5.4184,1,23.48

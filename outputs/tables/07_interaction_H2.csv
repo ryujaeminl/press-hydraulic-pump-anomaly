@@ -1,0 +1,16 @@
+﻿f1,f2,H2
+cur_madr,vlow_zcr,0.0093115
+vlow_kurt,vup_zcr,0.0092132
+vlow_kurt,vlow_skew,0.0080467
+vup_madr,vlow_skew,0.0062326
+vlow_skew,vup_zcr,0.0053136
+cur_madr,vup_madr,0.0045686
+cur_madr,vlow_kurt,0.0023927
+cur_madr,vlow_skew,0.0015929
+cur_madr,vup_zcr,0.0003595
+vup_madr,vlow_kurt,6.4028e-06
+vup_madr,vlow_zcr,5.9703e-08
+vup_zcr,vlow_zcr,1.5957e-28
+vlow_skew,vlow_zcr,1.098e-29
+vup_madr,vup_zcr,4.1388e-30
+vlow_kurt,vlow_zcr,3.156e-30

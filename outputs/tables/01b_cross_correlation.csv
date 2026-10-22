@@ -1,0 +1,7 @@
+﻿segment_type,pair,n_segments,peak_lag_median,mean_peak_corr,sd_peak_corr
+정상,AI0_Vibration~AI1_Vibration,360,2,-0.13033,0.60248
+정상,AI0_Vibration~AI2_Current,360,0,-0.0058177,0.14493
+정상,AI1_Vibration~AI2_Current,360,-2,-0.00064059,0.13024
+이상,AI0_Vibration~AI1_Vibration,10,-1.5,-0.63266,0.37099
+이상,AI0_Vibration~AI2_Current,10,-4,0.17228,0.38222
+이상,AI1_Vibration~AI2_Current,10,1,-0.2011,0.39943

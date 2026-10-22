@@ -1,0 +1,29 @@
+[정상 윈도우 중 오경보 근접(p>=0.05)] n=3567, hard=9
+|--- cur_madr <= 0.661
+|   |--- vup_madr <= 0.674
+|   |   |--- vlow_madr <= 1.007
+|   |   |   |--- class: 1
+|   |   |--- vlow_madr >  1.007
+|   |   |   |--- class: 0
+|   |--- vup_madr >  0.674
+|   |   |--- class: 0
+|--- cur_madr >  0.661
+|   |--- class: 1
+
+[이상 윈도우 중 미탐 근접(p<=0.95)] n=104, hard=9
+|--- cur_madr <= 0.777
+|   |--- cur_std <= 105.979
+|   |   |--- vlow_mad <= 0.200
+|   |   |   |--- class: 1
+|   |   |--- vlow_mad >  0.200
+|   |   |   |--- class: 1
+|   |--- cur_std >  105.979
+|   |   |--- class: 0
+|--- cur_madr >  0.777
+|   |--- cur_kurt <= -1.160
+|   |   |--- cur_skew <= -0.309
+|   |   |   |--- class: 1
+|   |   |--- cur_skew >  -0.309
+|   |   |   |--- class: 0
+|   |--- cur_kurt >  -1.160
+|   |   |--- class: 0

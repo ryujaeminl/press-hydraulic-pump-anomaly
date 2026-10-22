@@ -1,0 +1,3 @@
+﻿model_a,model_b,delta_F1,ci_low,ci_high
+M2_HGB,M1_RF,0.018672,0.0034022,0.076861
+M2_HGB,M4_Stack,0.018672,0.0029488,0.08323

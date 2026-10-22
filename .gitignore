@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+outputs_quick/
+outputs/predict_log.csv
+outputs/latest_run.json
+outputs/predictions_new*.csv
+# generated deliverables are submitted separately; rebuild with report/build_report.py and report/build_slides.py
+report/최종보고서*
+report/발표자료*

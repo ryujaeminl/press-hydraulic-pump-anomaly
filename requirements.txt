@@ -1,0 +1,9 @@
+# Version ranges so that `pip install -r requirements.txt` works on Python 3.10 - 3.14 (tested versions: README).
+# The exact versions behind the reported numbers are recorded in requirements-lock.txt.
+pandas>=2.2,<4
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+joblib>=1.3,<2
+pytest>=8.0

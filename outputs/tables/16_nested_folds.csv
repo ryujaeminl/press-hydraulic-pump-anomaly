@@ -1,0 +1,4 @@
+﻿fold,feature_set,model,test_windows,test_anomaly_windows,test_blocks,F1,Recall,Precision,FPR,PR_AUC,TP,FP,FN,TN
+1,INV,M2_HGB,1231,43,53,0.98851,1,0.97727,0.00084175,0.99663,43,1,0,1187
+2,INV,M4_Stack,1220,32,53,0.93333,0.875,1,0,0.99905,28,0,4,1188
+3,INV,M1_RF,1220,29,54,0.96667,1,0.93548,0.0016793,0.99643,29,2,0,1189

@@ -1,0 +1,9 @@
+﻿removed_group,PR_AUC
+전체,0.99247
+상부진동(AI0),0.99224
+하부진동(AI1),0.99323
+전류(AI2),0.94548
+채널간 관계,0.99245
+크기(mean/std/rms/ptp),0.9929
+형상(skew/kurt/crest),0.99379
+동특성(mad/madr/zcr),0.98896

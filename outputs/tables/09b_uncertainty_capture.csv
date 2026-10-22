@@ -1,0 +1,5 @@
+﻿top_pct,windows,errors_total,errors_captured,capture_rate,expected_by_chance,enrichment,p_value
+1,37,5,4,0.8,0.050395,79.373,5.1183e-08
+2,74,5,4,0.8,0.10079,39.686,8.1227e-07
+5,184,5,4,0.8,0.25061,15.961,3.0292e-05
+10,368,5,5,1,0.50123,9.9755,1.0123e-05

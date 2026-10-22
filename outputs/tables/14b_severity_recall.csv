@@ -1,0 +1,5 @@
+﻿bin,windows,z_median,spc_detect,model_red,model_yellow_or_red
+Q1 (가장 약함),26,1.2156,0,1,1
+Q2,26,2.7703,0.11538,1,1
+Q3,26,14.573,1,0.92308,1
+Q4 (가장 강함),26,22.567,1,1,1

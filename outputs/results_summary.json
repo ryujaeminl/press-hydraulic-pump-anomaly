@@ -1,0 +1,120 @@
+{
+  "windows": 3671,
+  "anomaly_windows": 104,
+  "n_features_all": 34,
+  "n_features_invariant": 17,
+  "segments_total": {
+    "outlier_data.csv": 21,
+    "press_data_normal.csv": 599
+  },
+  "segments_used": {
+    "outlier_data.csv": 18,
+    "press_data_normal.csv": 570
+  },
+  "modes_silhouette": {
+    "2": 0.6765464342258046,
+    "3": 0.5916168122312089,
+    "4": 0.4713961168947108
+  },
+  "final_set": "INV",
+  "final_model": "M2_HGB",
+  "thresholds": {
+    "t_red": 0.2433394746205426,
+    "t_yellow": 0.05184443787692626,
+    "unc_high": 0.022584701102295494,
+    "unc_used": true,
+    "assumed_cost_ratio": 10
+  },
+  "bootstrap_ci": {
+    "F1": {
+      "point": 0.9756,
+      "ci_low": 0.9353,
+      "ci_high": 1.0
+    },
+    "Recall": {
+      "point": 0.9615,
+      "ci_low": 0.8993,
+      "ci_high": 1.0
+    },
+    "FPR": {
+      "point": 0.0003,
+      "ci_low": 0.0,
+      "ci_high": 0.0009
+    }
+  },
+  "cur_guard_limit": 273.235,
+  "guard_limits": [
+    174.58131,
+    273.235
+  ],
+  "guard_effect": {
+    "모델만": {
+      "normal_windows": 3567,
+      "normal_yellow": 52,
+      "normal_red": 3,
+      "normal_new_mode": 1,
+      "anomaly_new_mode": 35,
+      "anomaly_windows": 104,
+      "anomaly_red": 102,
+      "anomaly_yellow": 2,
+      "anomaly_green": 0,
+      "R1_recall": 1.0,
+      "R1_FA_per_h": 5.4184,
+      "R2_recall": 1.0,
+      "R2_FA_per_h": 3.6123,
+      "R3_recall": 1.0,
+      "R3_FA_per_h": 21.6737
+    },
+    "전역 최대값 가드→노랑": {
+      "normal_windows": 3567,
+      "normal_yellow": 54,
+      "normal_red": 3,
+      "normal_new_mode": 1,
+      "anomaly_new_mode": 35,
+      "anomaly_windows": 104,
+      "anomaly_red": 102,
+      "anomaly_yellow": 2,
+      "anomaly_green": 0,
+      "R1_recall": 1.0,
+      "R1_FA_per_h": 5.4184,
+      "R2_recall": 1.0,
+      "R2_FA_per_h": 3.6123,
+      "R3_recall": 1.0,
+      "R3_FA_per_h": 23.4798
+    },
+    "모드별 가드→노랑 (채택)": {
+      "normal_windows": 3567,
+      "normal_yellow": 55,
+      "normal_red": 3,
+      "normal_new_mode": 1,
+      "anomaly_new_mode": 35,
+      "anomaly_windows": 104,
+      "anomaly_red": 102,
+      "anomaly_yellow": 2,
+      "anomaly_green": 0,
+      "R1_recall": 1.0,
+      "R1_FA_per_h": 5.4184,
+      "R2_recall": 1.0,
+      "R2_FA_per_h": 3.6123,
+      "R3_recall": 1.0,
+      "R3_FA_per_h": 23.4798
+    },
+    "전역 가드→빨강 (폐기)": {
+      "normal_windows": 3567,
+      "normal_yellow": 52,
+      "normal_red": 5,
+      "normal_new_mode": 1,
+      "anomaly_new_mode": 35,
+      "anomaly_windows": 104,
+      "anomaly_red": 104,
+      "anomaly_yellow": 0,
+      "anomaly_green": 0,
+      "R1_recall": 1.0,
+      "R1_FA_per_h": 7.2246,
+      "R2_recall": 1.0,
+      "R2_FA_per_h": 5.4184,
+      "R3_recall": 1.0,
+      "R3_FA_per_h": 23.4798
+    }
+  }
+}
